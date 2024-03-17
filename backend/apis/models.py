@@ -9,6 +9,8 @@ class MyUser(AbstractUser):
         doctor = 'Doctor'
 
     email = models.EmailField(unique=True)
+    username = models.CharField(null=True)
+    fullname = models.CharField(null=True)
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     date_of_birth = models.DateField(null=True)
