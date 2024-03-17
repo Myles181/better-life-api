@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-d2+spu+2xe$8lq%!y(s0j5--g@^0h6!@onh%9mw+mr^ceg4$mu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['better-life-api.onrender.com']
 
 
 # Application definition
